@@ -1,0 +1,119 @@
+.workflow {
+  /* The image used */
+  background-image: url("/img/cand2.jpg");
+
+  /* Set a specific height */
+  height: auto;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 10px;
+
+  text-align: center;
+  @include device(m) {
+    height: auto;
+  }
+  @include device(s) {
+    height: auto;
+  }
+}
+.workflow h2 {
+  color: #fff;
+  font-size: 45px;
+  @include device(s) {
+    font-size: 35px;
+  }
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 120%;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.work {
+  width: auto;
+}
+.filter-menu {
+  margin-bottom: 20px;
+}
+.filter-menu li {
+  font-family: monospace;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 10px 18px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 200px;
+  color: #fff;
+  cursor: pointer;
+  @include device(s) {
+    margin-bottom: 5px;
+  }
+}
+.filter-menu li:hover,
+.filter-menu li.active {
+  background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+}
+
+.filter-item li {
+  width: 50%;
+  padding: 5px;
+  float: left;
+  @include device(s) {
+    width: 50%;
+  }
+}
+.filter-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-item li.active {
+  width: 50%;
+
+  @include device(s) {
+    width: 100%;
+  }
+  opacity: 1;
+  padding: 2px;
+  transition: all 0.9s ease;
+}
+
+.filter-item li.delete {
+  opacity: 0;
+  width: 0%;
+
+  transform: scale(0);
+  padding: 0;
+  transition: all 0.9s ease;
+}
+
+.filter-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-item li.active,
+  .filter-item li {
+    width: 50%;
+  }
+
+  h2 {
+    font-size: 190%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .filter-item li.active,
+  .filter-item li {
+    width: 48%;
+  }
+}

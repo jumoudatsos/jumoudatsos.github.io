@@ -1,0 +1,177 @@
+.html {
+  display: none;
+}
+.textop p {
+  line-height: 1.4em;
+  font-weight: bold;
+  font-size: 18px;
+}
+.html.ativo {
+  display: block;
+}
+.infohtml {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(2, 0, 0, 0.26);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include device(s) {
+    height: 120vh;
+    width: 100%;
+  }
+}
+.info_containerhtml button {
+  height: 35px;
+  width: 35px;
+  position: fixed;
+  top: 10px;
+  z-index: 999;
+  left: 10px;
+  background: tomato;
+  border-style: none;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
+  transition: 0.3s;
+  transform: scale(1.1);
+  @include device(s) {
+    height: 20px;
+    width: 20px;
+    font-size: 11px;
+  }
+}
+.info_containerhtml button:hover {
+  background: tomato;
+  transform: scale(0.95);
+  outline: none;
+}
+.info_containerhtml {
+  background: white;
+  border-radius: 0px 10px 10px;
+  margin: 0 auto;
+  max-width: 960px;
+  max-height: 550px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  padding: 90px 0px;
+  overflow-y: scroll;
+  @include device(m) {
+    min-height: 550px;
+  }
+  @include device(s) {
+    min-width: 310px;
+    margin-top: -100px;
+    min-height: 550px;
+    padding: 40px 0px;
+  }
+}
+
+.info_titulohtml {
+  background: #f16528;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.253);
+  padding: 10px 0px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  @include device(s) {
+    position: fixed;
+    top: 0px;
+  }
+}
+
+.info_titulohtml h1 {
+  font-size: 45px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: monospace !important;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #faf6ed;
+  @include device(s) {
+    font-size: 25px;
+    margin-left: 15px;
+    padding: 15px 0px;
+  }
+}
+.info_titulohtml button {
+  height: 23px;
+  width: 23px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: #323230;
+  border-style: none;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
+  transform: scale(1.1);
+  @include device(s) {
+    height: 20px;
+    width: 20px;
+    font-size: 11px;
+  }
+}
+.info_titulohtml button:hover {
+  background: tomato;
+  transform: scale(0.95);
+  outline: none;
+}
+
+.info_navhtml {
+  width: 100%;
+  text-align: center;
+}
+
+.info_navhtml ul {
+  margin: 5px;
+}
+.info_navhtml ul h1 {
+  font-size: 45px;
+  font-family: monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+
+.info_navhtml ul li {
+  background: #e44d27;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #faf6ed;
+  letter-spacing: 3px;
+}
+
+.info_navhtml ul li:nth-child(2n + 0) {
+  background-color: #323230;
+  color: #faf6ed;
+}
+
+.info_containerhtml::-webkit-scrollbar {
+  width: 20px;
+}
+
+.info_containerhtml::-webkit-scrollbar-thumb {
+  background: #f16528;
+  border-left: 4px solid #faf6ed;
+  border-right: 4px solid #faf6ed;
+  border-radius: 55px;
+}

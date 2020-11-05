@@ -1,0 +1,286 @@
+// ONDAS
+.julio::after {
+  content: "❘";
+  opacity: 1;
+  margin-left: 5px;
+  display: inline-block;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.intro {
+  height: 130vh;
+  background-image: linear-gradient(to right, #3b5998 0%, #2f477a 100%);
+  position: relative;
+  @include device(s) {
+    height: 90vh;
+  }
+}
+
+.intro h1 {
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 90px;
+  padding: 20px 0px;
+  border: 4px solid wheat;
+  border-radius: 5px 10px 0px;
+  max-width: 670px;
+  margin: 90px auto 0px auto;
+  @include device(s) {
+    font-size: 25px;
+    max-width: 270px;
+    margin-top: 120px;
+  }
+}
+
+.waves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.wave-1 {
+  animation: moveWave1 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveWave1 {
+  from {
+    transform: translateX(-2000px);
+  }
+}
+
+.wave-2 {
+  animation: moveWave2 3s 1.2s ease-in-out infinite alternate;
+}
+
+@keyframes moveWave2 {
+  from {
+    transform: translateX(-1800px);
+  }
+}
+
+.wave-3 {
+  animation: moveWave3 3s 0.7s ease-in-out infinite alternate;
+}
+
+@keyframes moveWave3 {
+  from {
+    transform: translateX(-1600px);
+  }
+}
+
+/* Skills */
+
+.agauaefeito {
+  /* The image used */
+  background-image: url("/img/cand6.jpg");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 60px 10px;
+  position: relative;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 45px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.4;
+  @include device(s) {
+    font-size: 28px;
+  }
+}
+
+.container-skills {
+  background: white;
+  max-width: 1160px;
+  margin: 0 auto;
+  border-radius: 9px;
+  padding: 30px;
+  margin-top: -100px;
+  @include device(s) {
+    margin-top: -85px;
+  }
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 900;
+}
+
+.jswal {
+  background-image: url("/img/jswall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  border-radius: 10px 0px 10px 0px;
+  margin: 20px 0px;
+  cursor: pointer;
+  transition: 0.8s ease-in;
+  @include device(s) {
+    height: 265px;
+  }
+}
+.opacty {
+  opacity: 0;
+  transform: translate3d(-30px, 0px, 0);
+  transition: 0.6s;
+}
+.opacty.ativo {
+  transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
+}
+.csswal {
+  background-image: url("/img/csswall.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  border-radius: 10px 0px 10px 0px;
+  margin: 20px 0px;
+  cursor: pointer;
+  transition: 0.8s ease-in;
+  @include device(s) {
+    height: 265px;
+  }
+}
+.htmlwal {
+  background-image: url("/img/htmlwall.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  border-radius: 10px 0px 10px 0px;
+  margin: 20px 0px;
+  cursor: pointer;
+  transition: 0.8s ease-in;
+  @include device(s) {
+    height: 265px;
+  }
+}
+.artwal {
+  background-image: url("/img/illustra.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  border-radius: 10px 0px 10px 0px;
+  margin: 20px 0px;
+  cursor: pointer;
+  transition: 0.8s ease-in;
+  @include device(s) {
+    height: 265px;
+  }
+}
+.ecoomercewal {
+  background-image: url("/img/woo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  border-radius: 10px 0px 10px 0px;
+  margin: 20px 0px;
+  cursor: pointer;
+  transition: 0.8s ease-in;
+  @include device(s) {
+    height: 265px;
+  }
+}
+.grupo:hover {
+  background-image: url("/img/hover.png");
+}
+.grupo {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.226);
+}
+// FINAL
+.final {
+  /* The image used */
+  background-image: url("/img/computer.jpg");
+
+  /* Set a specific height */
+  min-height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+// footer
+.assinatura {
+  width: 100%;
+  background: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+.orange {
+  color: #ddb650;
+}
+.assinatura p {
+  color: white;
+  margin: 10px;
+}
+.contato {
+  background: #a5beef;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contato {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.made::after {
+  content: "";
+  background-image: url("/img/ufo2.svg");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.contatos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.zap {
+  background: #6dcd9a;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zap img {
+  height: 45px;
+  width: 45px;
+}

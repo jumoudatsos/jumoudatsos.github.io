@@ -1,0 +1,141 @@
+.slide {
+  text-align: center;
+  padding: 30px 0px;
+  @include device(s) {
+    padding: 0px 10px;
+  }
+}
+
+.works_slide {
+  @include device(s) {
+    font-size: 35px !important;
+    margin-top: 30px;
+  }
+}
+.slide h1 {
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.slide_container {
+  overflow-x: hidden;
+  position: relative;
+}
+.slide_lista {
+  display: flex;
+  padding: 30px;
+}
+.slide_lista:hover {
+  will-change: transform;
+}
+.slide_lista li {
+  border-radius: 10px !important;
+  flex-shrink: 0;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+  transform: scale(0.8);
+  transition: 0.4s;
+  max-width: 800px;
+}
+.slide_lista li.active {
+  opacity: 1;
+  transform: scale(1);
+}
+.slide_lista li img {
+  height: 70vh;
+  border-radius: 10px !important;
+  display: block;
+  width: 100%;
+}
+
+[data-control="slide"] {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+[data-control="slide"] li a {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: #fb5;
+  border-radius: 50%;
+  overflow: hidden;
+  text-indent: -9999px;
+  margin: 5px;
+}
+
+[data-control="slide"] li.active a,
+[data-control="slide"] li a:hover {
+  background: #e54;
+}
+
+.custom-controls {
+  display: flex;
+  justify-content: center;
+}
+.custom-controls img {
+  cursor: pointer;
+  height: 100%;
+}
+
+.custom-controls li {
+  opacity: 0.8;
+  transform: scale(0.8);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 5px;
+  transition: 0.3s;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.custom-controls li.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+// botoes
+
+.next {
+  background: rgba(15, 0, 0, 0.397);
+  border-style: none;
+  border-radius: 10px;
+  position: absolute;
+  top: 260px;
+  right: 100px;
+  height: 150px;
+  font-size: 85px;
+  font-weight: bold;
+  padding: 0px 20px;
+  color: rgb(240, 253, 255);
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  @include device(s) {
+    display: none;
+  }
+}
+.prev {
+  background: rgba(15, 0, 0, 0.397);
+  border-style: none;
+  border-radius: 10px;
+  position: absolute;
+  top: 260px;
+  left: 100px;
+  height: 150px;
+  font-size: 85px;
+  font-weight: bold;
+  padding: 0px 20px;
+  color: rgb(240, 253, 255);
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  @include device(s) {
+    display: none;
+  }
+}
