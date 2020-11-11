@@ -179,6 +179,9 @@
 }
 .artwal {
   background-image: url("/img/illustra.png");
+  @include device(s) {
+    background-image: url("/img/xd.png");
+  }
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -193,6 +196,9 @@
 }
 .ecoomercewal {
   background-image: url("/img/woo.jpg");
+  @include device(s) {
+    background-image: url("/img/woo2.png");
+  }
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

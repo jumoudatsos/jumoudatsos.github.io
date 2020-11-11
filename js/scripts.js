@@ -8,10 +8,11 @@ import Titulo from "/modules/titulo.js";
 import Carregar from "/modules/carregar.js"; 
 
 // SLIDE ATIVAÇÃO
-const slide_site = new slidenav('.slide_lista','.slide_container');
+
+const slide_site= new slidenav(".slide_lista",".slide_container");
 slide_site.init();
-slide_site.arrow('.prev','.next');
-slide_site.addControl(".custom-controls");
+slide_site.arrow(".prev",".next");
+slide_site.addControl('.custom-controls');
 
 // WORKFLOW
 

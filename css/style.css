@@ -1104,11 +1104,18 @@ img {
 @media screen and (max-width: 759px) {
   /* line 180, ../portfolioFinal/css/sass/_home.scss */
   .artwal {
+    background-image: url("/img/xd.png");
+  }
+}
+
+@media screen and (max-width: 759px) {
+  /* line 180, ../portfolioFinal/css/sass/_home.scss */
+  .artwal {
     height: 265px;
   }
 }
 
-/* line 194, ../portfolioFinal/css/sass/_home.scss */
+/* line 197, ../portfolioFinal/css/sass/_home.scss */
 .ecoomercewal {
   background-image: url("/img/woo.jpg");
   background-repeat: no-repeat;
@@ -1122,23 +1129,30 @@ img {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 194, ../portfolioFinal/css/sass/_home.scss */
+  /* line 197, ../portfolioFinal/css/sass/_home.scss */
+  .ecoomercewal {
+    background-image: url("/img/woo2.png");
+  }
+}
+
+@media screen and (max-width: 759px) {
+  /* line 197, ../portfolioFinal/css/sass/_home.scss */
   .ecoomercewal {
     height: 265px;
   }
 }
 
-/* line 208, ../portfolioFinal/css/sass/_home.scss */
+/* line 214, ../portfolioFinal/css/sass/_home.scss */
 .grupo:hover {
   background-image: url("/img/hover.png");
 }
 
-/* line 211, ../portfolioFinal/css/sass/_home.scss */
+/* line 217, ../portfolioFinal/css/sass/_home.scss */
 .grupo {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.226);
 }
 
-/* line 215, ../portfolioFinal/css/sass/_home.scss */
+/* line 221, ../portfolioFinal/css/sass/_home.scss */
 .final {
   /* The image used */
   background-image: url("/img/computer.jpg");
@@ -1154,7 +1168,7 @@ img {
   justify-content: center;
 }
 
-/* line 232, ../portfolioFinal/css/sass/_home.scss */
+/* line 238, ../portfolioFinal/css/sass/_home.scss */
 .assinatura {
   width: 100%;
   background: #2c3e50;
@@ -1164,18 +1178,18 @@ img {
   padding: 20px 0px;
 }
 
-/* line 240, ../portfolioFinal/css/sass/_home.scss */
+/* line 246, ../portfolioFinal/css/sass/_home.scss */
 .orange {
   color: #ddb650;
 }
 
-/* line 243, ../portfolioFinal/css/sass/_home.scss */
+/* line 249, ../portfolioFinal/css/sass/_home.scss */
 .assinatura p {
   color: white;
   margin: 10px;
 }
 
-/* line 247, ../portfolioFinal/css/sass/_home.scss */
+/* line 253, ../portfolioFinal/css/sass/_home.scss */
 .contato {
   background: #a5beef;
   padding: 30px 0px;
@@ -1184,7 +1198,7 @@ img {
   align-items: center;
 }
 
-/* line 254, ../portfolioFinal/css/sass/_home.scss */
+/* line 260, ../portfolioFinal/css/sass/_home.scss */
 .contato {
   color: white;
   font-size: 25px;
@@ -1194,7 +1208,7 @@ img {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-/* line 262, ../portfolioFinal/css/sass/_home.scss */
+/* line 268, ../portfolioFinal/css/sass/_home.scss */
 .made::after {
   content: "";
   background-image: url("/img/ufo2.svg");
@@ -1205,13 +1219,13 @@ img {
   margin-left: 5px;
 }
 
-/* line 272, ../portfolioFinal/css/sass/_home.scss */
+/* line 278, ../portfolioFinal/css/sass/_home.scss */
 .contatos {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-/* line 276, ../portfolioFinal/css/sass/_home.scss */
+/* line 282, ../portfolioFinal/css/sass/_home.scss */
 .zap {
   background: #6dcd9a;
   padding: 30px 0px;
@@ -1220,7 +1234,7 @@ img {
   align-items: center;
 }
 
-/* line 283, ../portfolioFinal/css/sass/_home.scss */
+/* line 289, ../portfolioFinal/css/sass/_home.scss */
 .zap img {
   height: 45px;
   width: 45px;
@@ -1228,177 +1242,133 @@ img {
 
 /* line 1, ../portfolioFinal/css/sass/_slide.scss */
 .slide {
+  padding: 20px 0px;
   text-align: center;
-  padding: 30px 0px;
 }
 
-@media screen and (max-width: 759px) {
-  /* line 1, ../portfolioFinal/css/sass/_slide.scss */
-  .slide {
-    padding: 0px 10px;
-  }
+/* line 6, ../portfolioFinal/css/sass/_slide.scss */
+.slide_container {
+  overflow: hidden;
 }
 
-@media screen and (max-width: 759px) {
-  /* line 9, ../portfolioFinal/css/sass/_slide.scss */
-  .works_slide {
-    font-size: 35px !important;
-    margin-top: 30px;
-  }
+/* line 9, ../portfolioFinal/css/sass/_slide.scss */
+.slide_lista {
+  display: flex;
 }
 
-/* line 15, ../portfolioFinal/css/sass/_slide.scss */
-.slide h1 {
-  font-size: 45px;
-  font-weight: bold;
-  letter-spacing: 5px;
+/* line 13, ../portfolioFinal/css/sass/_slide.scss */
+.slide_lista li {
+  flex-shrink: 0;
+  width: 80vw;
+  max-width: 800px;
+  margin: 0 20px;
 }
 
 /* line 20, ../portfolioFinal/css/sass/_slide.scss */
-.slide_container {
-  overflow-x: hidden;
-  position: relative;
-}
-
-/* line 24, ../portfolioFinal/css/sass/_slide.scss */
-.slide_lista {
-  display: flex;
-  padding: 30px;
-}
-
-/* line 28, ../portfolioFinal/css/sass/_slide.scss */
-.slide_lista:hover {
-  will-change: transform;
-}
-
-/* line 31, ../portfolioFinal/css/sass/_slide.scss */
-.slide_lista li {
-  border-radius: 10px !important;
-  flex-shrink: 0;
-  margin: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  opacity: 0.8;
-  transform: scale(0.8);
-  transition: 0.4s;
-  max-width: 800px;
-}
-
-/* line 41, ../portfolioFinal/css/sass/_slide.scss */
-.slide_lista li.active {
-  opacity: 1;
-  transform: scale(1);
-}
-
-/* line 45, ../portfolioFinal/css/sass/_slide.scss */
-.slide_lista li img {
-  height: 70vh;
-  border-radius: 10px !important;
-  display: block;
-  width: 100%;
-}
-
-/* line 52, ../portfolioFinal/css/sass/_slide.scss */
-[data-control="slide"] {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-/* line 58, ../portfolioFinal/css/sass/_slide.scss */
-[data-control="slide"] li a {
-  display: block;
-  width: 12px;
-  height: 12px;
-  background: #fb5;
-  border-radius: 50%;
-  overflow: hidden;
-  text-indent: -9999px;
-  margin: 5px;
-}
-
-/* line 69, ../portfolioFinal/css/sass/_slide.scss */
-[data-control="slide"] li.active a,
-[data-control="slide"] li a:hover {
-  background: #e54;
-}
-
-/* line 74, ../portfolioFinal/css/sass/_slide.scss */
 .custom-controls {
   display: flex;
   justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
-/* line 78, ../portfolioFinal/css/sass/_slide.scss */
-.custom-controls img {
-  cursor: pointer;
-  height: 100%;
-}
-
-/* line 83, ../portfolioFinal/css/sass/_slide.scss */
+/* line 28, ../portfolioFinal/css/sass/_slide.scss */
 .custom-controls li {
   opacity: 0.8;
   transform: scale(0.8);
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   overflow: hidden;
-  margin: 5px;
-  transition: 0.3s;
+  margin: 2px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
 }
 
-/* line 95, ../portfolioFinal/css/sass/_slide.scss */
+/* line 39, ../portfolioFinal/css/sass/_slide.scss */
+.custom-controls li img {
+  height: 100%;
+}
+
+/* line 42, ../portfolioFinal/css/sass/_slide.scss */
 .custom-controls li.active {
   opacity: 1;
   transform: scale(1);
 }
 
-/* line 102, ../portfolioFinal/css/sass/_slide.scss */
-.next {
-  background: rgba(15, 0, 0, 0.397);
-  border-style: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 260px;
-  right: 100px;
-  height: 150px;
-  font-size: 85px;
+/* line 46, ../portfolioFinal/css/sass/_slide.scss */
+.prev {
+  color: #355089;
+  background: transparent;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.096);
+  border: none;
+  font-size: 8em;
   font-weight: bold;
-  padding: 0px 20px;
-  color: #f0fdff;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: auto;
+  position: absolute;
+  top: 40%;
+  left: 5%;
 }
 
 @media screen and (max-width: 759px) {
-  /* line 102, ../portfolioFinal/css/sass/_slide.scss */
-  .next {
+  /* line 46, ../portfolioFinal/css/sass/_slide.scss */
+  .prev {
+    font-size: 3em;
+    top: 60%;
+    left: 0%;
     display: none;
   }
 }
 
-/* line 122, ../portfolioFinal/css/sass/_slide.scss */
-.prev {
-  background: rgba(15, 0, 0, 0.397);
-  border-style: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 260px;
-  left: 100px;
-  height: 150px;
-  font-size: 85px;
+/* line 67, ../portfolioFinal/css/sass/_slide.scss */
+.titul {
+  font-size: 45px;
   font-weight: bold;
-  padding: 0px 20px;
-  color: #f0fdff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  letter-spacing: 5px;
+  line-height: 1.4em;
 }
 
 @media screen and (max-width: 759px) {
-  /* line 122, ../portfolioFinal/css/sass/_slide.scss */
-  .prev {
+  /* line 67, ../portfolioFinal/css/sass/_slide.scss */
+  .titul {
+    font-size: 30px;
+  }
+}
+
+/* line 76, ../portfolioFinal/css/sass/_slide.scss */
+.prev:hover,
+.next:hover {
+  background: rgba(204, 204, 204, 0.11);
+  transition: 0.4s ease-in;
+}
+
+/* line 81, ../portfolioFinal/css/sass/_slide.scss */
+.next {
+  color: tomato;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.096);
+  background: transparent;
+  border: none;
+  font-size: 8em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  position: absolute;
+  top: 40%;
+  right: 5%;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 81, ../portfolioFinal/css/sass/_slide.scss */
+  .next {
+    font-size: 3em;
+    top: 60%;
+    right: 0%;
     display: none;
   }
 }
