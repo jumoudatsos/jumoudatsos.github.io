@@ -291,3 +291,42 @@
   height: 45px;
   width: 45px;
 }
+
+// INFO
+
+.info_pt {
+  padding: 30px 0px;
+  text-align: center;
+}
+.info_t {
+  @include device(s) {
+    font-size: 45px !important;
+    font-weight: bold;
+  }
+}
+.info_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  @include device(s) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.info_grid_numeros {
+  padding-left: 10px;
+}
+.info_grid_numeros h3 {
+  font-size: 30px;
+
+  font-family: monospace;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.info_grid_numeros span {
+  font-size: 25px;
+  color: #ee5544;
+  letter-spacing: 1px;
+  font-weight: bold;
+}

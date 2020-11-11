@@ -5,7 +5,8 @@ import opacty from "/modules/opacty.js";
 import Mobile from "/modules/mobile.js"; 
 import Geral from "/modules/geral.js"; 
 import Titulo from "/modules/titulo.js"; 
-import Carregar from "/modules/carregar.js"; 
+
+
 
 // SLIDE ATIVAÇÃO
 
@@ -37,5 +38,3 @@ geral.init();
 const titulo = new Titulo(".julio");
 titulo.init();
 // Onload
-const carregar = new Carregar();
-carregar.init();

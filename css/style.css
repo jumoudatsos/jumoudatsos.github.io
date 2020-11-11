@@ -1240,6 +1240,56 @@ img {
   width: 45px;
 }
 
+/* line 297, ../portfolioFinal/css/sass/_home.scss */
+.info_pt {
+  padding: 30px 0px;
+  text-align: center;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 301, ../portfolioFinal/css/sass/_home.scss */
+  .info_t {
+    font-size: 45px !important;
+    font-weight: bold;
+  }
+}
+
+/* line 307, ../portfolioFinal/css/sass/_home.scss */
+.info_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 307, ../portfolioFinal/css/sass/_home.scss */
+  .info_container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* line 316, ../portfolioFinal/css/sass/_home.scss */
+.info_grid_numeros {
+  padding-left: 10px;
+}
+
+/* line 319, ../portfolioFinal/css/sass/_home.scss */
+.info_grid_numeros h3 {
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* line 327, ../portfolioFinal/css/sass/_home.scss */
+.info_grid_numeros span {
+  font-size: 25px;
+  color: #ee5544;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
 /* line 1, ../portfolioFinal/css/sass/_slide.scss */
 .slide {
   padding: 75px 0px;
