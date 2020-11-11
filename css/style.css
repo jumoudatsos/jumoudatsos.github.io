@@ -862,7 +862,7 @@ img {
   border-bottom: none;
 }
 
-/* line 2, ../portfolioFinal/css/sass/_home.scss */
+/* line 3, ../portfolioFinal/css/sass/_home.scss */
 .julio::after {
   content: "❘";
   opacity: 1;
@@ -881,7 +881,7 @@ img {
   }
 }
 
-/* line 18, ../portfolioFinal/css/sass/_home.scss */
+/* line 19, ../portfolioFinal/css/sass/_home.scss */
 .intro {
   height: 130vh;
   background-image: linear-gradient(to right, #3b5998 0%, #2f477a 100%);
@@ -889,13 +889,13 @@ img {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 18, ../portfolioFinal/css/sass/_home.scss */
+  /* line 19, ../portfolioFinal/css/sass/_home.scss */
   .intro {
     height: 90vh;
   }
 }
 
-/* line 27, ../portfolioFinal/css/sass/_home.scss */
+/* line 28, ../portfolioFinal/css/sass/_home.scss */
 .intro h1 {
   color: white;
   font-size: 75px;
@@ -912,15 +912,15 @@ img {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 27, ../portfolioFinal/css/sass/_home.scss */
+  /* line 28, ../portfolioFinal/css/sass/_home.scss */
   .intro h1 {
-    font-size: 25px;
+    font-size: 20px;
     max-width: 270px;
     margin-top: 120px;
   }
 }
 
-/* line 47, ../portfolioFinal/css/sass/_home.scss */
+/* line 48, ../portfolioFinal/css/sass/_home.scss */
 .waves {
   position: absolute;
   bottom: 0;
@@ -928,7 +928,7 @@ img {
   right: 0;
 }
 
-/* line 54, ../portfolioFinal/css/sass/_home.scss */
+/* line 55, ../portfolioFinal/css/sass/_home.scss */
 .wave-1 {
   animation: moveWave1 3s ease-in-out infinite alternate;
 }
@@ -939,7 +939,7 @@ img {
   }
 }
 
-/* line 64, ../portfolioFinal/css/sass/_home.scss */
+/* line 65, ../portfolioFinal/css/sass/_home.scss */
 .wave-2 {
   animation: moveWave2 3s 1.2s ease-in-out infinite alternate;
 }
@@ -950,7 +950,7 @@ img {
   }
 }
 
-/* line 74, ../portfolioFinal/css/sass/_home.scss */
+/* line 75, ../portfolioFinal/css/sass/_home.scss */
 .wave-3 {
   animation: moveWave3 3s 0.7s ease-in-out infinite alternate;
 }
@@ -962,7 +962,7 @@ img {
 }
 
 /* Skills */
-/* line 86, ../portfolioFinal/css/sass/_home.scss */
+/* line 87, ../portfolioFinal/css/sass/_home.scss */
 .agauaefeito {
   /* The image used */
   background-image: url("/img/cand6.jpg");
@@ -976,7 +976,7 @@ img {
   position: relative;
 }
 
-/* line 100, ../portfolioFinal/css/sass/_home.scss */
+/* line 101, ../portfolioFinal/css/sass/_home.scss */
 .titulo {
   text-align: center;
   margin-bottom: 60px;
@@ -988,13 +988,13 @@ img {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 100, ../portfolioFinal/css/sass/_home.scss */
+  /* line 101, ../portfolioFinal/css/sass/_home.scss */
   .titulo {
     font-size: 28px;
   }
 }
 
-/* line 113, ../portfolioFinal/css/sass/_home.scss */
+/* line 114, ../portfolioFinal/css/sass/_home.scss */
 .container-skills {
   background: white;
   max-width: 1160px;
@@ -1009,13 +1009,13 @@ img {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 113, ../portfolioFinal/css/sass/_home.scss */
+  /* line 114, ../portfolioFinal/css/sass/_home.scss */
   .container-skills {
     margin-top: -85px;
   }
 }
 
-/* line 129, ../portfolioFinal/css/sass/_home.scss */
+/* line 130, ../portfolioFinal/css/sass/_home.scss */
 .jswal {
   background-image: url("/img/jswall.jpg");
   background-repeat: no-repeat;
@@ -1029,26 +1029,26 @@ img {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 129, ../portfolioFinal/css/sass/_home.scss */
+  /* line 130, ../portfolioFinal/css/sass/_home.scss */
   .jswal {
     height: 265px;
   }
 }
 
-/* line 143, ../portfolioFinal/css/sass/_home.scss */
+/* line 144, ../portfolioFinal/css/sass/_home.scss */
 .opacty {
   opacity: 0;
   transform: translate3d(-30px, 0px, 0);
   transition: 0.6s;
 }
 
-/* line 148, ../portfolioFinal/css/sass/_home.scss */
+/* line 149, ../portfolioFinal/css/sass/_home.scss */
 .opacty.ativo {
   transform: translate3d(0px, 0px, 0px);
   opacity: 1;
 }
 
-/* line 152, ../portfolioFinal/css/sass/_home.scss */
+/* line 153, ../portfolioFinal/css/sass/_home.scss */
 .csswal {
   background-image: url("/img/csswall.png");
   background-repeat: no-repeat;
@@ -1062,13 +1062,13 @@ img {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 152, ../portfolioFinal/css/sass/_home.scss */
+  /* line 153, ../portfolioFinal/css/sass/_home.scss */
   .csswal {
     height: 265px;
   }
 }
 
-/* line 166, ../portfolioFinal/css/sass/_home.scss */
+/* line 167, ../portfolioFinal/css/sass/_home.scss */
 .htmlwal {
   background-image: url("/img/htmlwall.png");
   background-repeat: no-repeat;
@@ -1082,13 +1082,13 @@ img {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 166, ../portfolioFinal/css/sass/_home.scss */
+  /* line 167, ../portfolioFinal/css/sass/_home.scss */
   .htmlwal {
     height: 265px;
   }
 }
 
-/* line 180, ../portfolioFinal/css/sass/_home.scss */
+/* line 181, ../portfolioFinal/css/sass/_home.scss */
 .artwal {
   background-image: url("/img/illustra.png");
   background-repeat: no-repeat;
@@ -1102,20 +1102,20 @@ img {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 180, ../portfolioFinal/css/sass/_home.scss */
+  /* line 181, ../portfolioFinal/css/sass/_home.scss */
   .artwal {
     background-image: url("/img/xd.png");
   }
 }
 
 @media screen and (max-width: 759px) {
-  /* line 180, ../portfolioFinal/css/sass/_home.scss */
+  /* line 181, ../portfolioFinal/css/sass/_home.scss */
   .artwal {
     height: 265px;
   }
 }
 
-/* line 197, ../portfolioFinal/css/sass/_home.scss */
+/* line 198, ../portfolioFinal/css/sass/_home.scss */
 .ecoomercewal {
   background-image: url("/img/woo.jpg");
   background-repeat: no-repeat;
@@ -1129,30 +1129,30 @@ img {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 197, ../portfolioFinal/css/sass/_home.scss */
+  /* line 198, ../portfolioFinal/css/sass/_home.scss */
   .ecoomercewal {
     background-image: url("/img/woo2.png");
   }
 }
 
 @media screen and (max-width: 759px) {
-  /* line 197, ../portfolioFinal/css/sass/_home.scss */
+  /* line 198, ../portfolioFinal/css/sass/_home.scss */
   .ecoomercewal {
     height: 265px;
   }
 }
 
-/* line 214, ../portfolioFinal/css/sass/_home.scss */
+/* line 215, ../portfolioFinal/css/sass/_home.scss */
 .grupo:hover {
   background-image: url("/img/hover.png");
 }
 
-/* line 217, ../portfolioFinal/css/sass/_home.scss */
+/* line 218, ../portfolioFinal/css/sass/_home.scss */
 .grupo {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.226);
 }
 
-/* line 221, ../portfolioFinal/css/sass/_home.scss */
+/* line 222, ../portfolioFinal/css/sass/_home.scss */
 .final {
   /* The image used */
   background-image: url("/img/computer.jpg");
@@ -1168,7 +1168,7 @@ img {
   justify-content: center;
 }
 
-/* line 238, ../portfolioFinal/css/sass/_home.scss */
+/* line 239, ../portfolioFinal/css/sass/_home.scss */
 .assinatura {
   width: 100%;
   background: #2c3e50;
@@ -1178,18 +1178,18 @@ img {
   padding: 20px 0px;
 }
 
-/* line 246, ../portfolioFinal/css/sass/_home.scss */
+/* line 247, ../portfolioFinal/css/sass/_home.scss */
 .orange {
   color: #ddb650;
 }
 
-/* line 249, ../portfolioFinal/css/sass/_home.scss */
+/* line 250, ../portfolioFinal/css/sass/_home.scss */
 .assinatura p {
   color: white;
   margin: 10px;
 }
 
-/* line 253, ../portfolioFinal/css/sass/_home.scss */
+/* line 254, ../portfolioFinal/css/sass/_home.scss */
 .contato {
   background: #a5beef;
   padding: 30px 0px;
@@ -1198,7 +1198,7 @@ img {
   align-items: center;
 }
 
-/* line 260, ../portfolioFinal/css/sass/_home.scss */
+/* line 261, ../portfolioFinal/css/sass/_home.scss */
 .contato {
   color: white;
   font-size: 25px;
@@ -1208,7 +1208,7 @@ img {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-/* line 268, ../portfolioFinal/css/sass/_home.scss */
+/* line 269, ../portfolioFinal/css/sass/_home.scss */
 .made::after {
   content: "";
   background-image: url("/img/ufo2.svg");
@@ -1219,13 +1219,13 @@ img {
   margin-left: 5px;
 }
 
-/* line 278, ../portfolioFinal/css/sass/_home.scss */
+/* line 279, ../portfolioFinal/css/sass/_home.scss */
 .contatos {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-/* line 282, ../portfolioFinal/css/sass/_home.scss */
+/* line 283, ../portfolioFinal/css/sass/_home.scss */
 .zap {
   background: #6dcd9a;
   padding: 30px 0px;
@@ -1234,7 +1234,7 @@ img {
   align-items: center;
 }
 
-/* line 289, ../portfolioFinal/css/sass/_home.scss */
+/* line 290, ../portfolioFinal/css/sass/_home.scss */
 .zap img {
   height: 45px;
   width: 45px;
