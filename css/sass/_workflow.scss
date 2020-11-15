@@ -1,6 +1,9 @@
 .workflow {
   /* The image used */
   background-image: url("/img/cand2.jpg");
+  @include device(s) {
+    background: #2c3e50;
+  }
 
   /* Set a specific height */
   height: auto;
